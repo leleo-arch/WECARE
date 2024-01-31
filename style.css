@@ -1,0 +1,165 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+margin: 0;
+padding: 10px;
+box-sizing: border-box;
+
+}
+
+.logo-image {
+    width: 400px;
+    margin-left: 125px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+header {
+   margin: 10px 0 80px 7px;
+   
+}
+
+.link-header {
+font-size: 20px;
+color: rgb(146, 146, 146);
+line-height: 29px;
+font-weight: 400;
+cursor: pointer;
+margin-right: 10px;
+
+}
+
+.botão {
+    border-radius:15px;
+    background-color: rgb(100, 115, 250);
+    width: 130px;
+    height: 41px;
+    font-size: 15px;
+    color: aliceblue;
+    cursor: pointer;
+    
+
+}
+
+.botom {
+    opacity: 0%;
+}
+
+
+section {
+display: inline-block;
+margin-left: 16px;
+margin-top: 0px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 40px;
+    color: rgba(24, 109, 206, 0.719);
+}
+
+h2 {
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 71px;
+    color: rgb(87, 87, 87);
+}
+
+p {
+
+font-size:12px;
+font-weight: 400;
+line-height: 29px;
+width: 400px;
+margin-top: 0px;
+margin-bottom: 20px;
+
+}
+
+button {
+    background-color: rgba(24, 109, 206, 0.719);
+    font-size: 15px;
+    border-radius: 20px;
+    cursor:pointer;
+    color: aliceblue;
+    font-weight: 40px;
+   
+}
+
+@media screen and  ( max-width:900px) {
+
+ * {
+    padding: 10px 12px 15px 1px;
+ }
+
+
+    .logo-image {
+        width: 430px;
+        margin-left: -5px;
+        margin-top: 9px;
+        display: block;
+        position: absolute;
+        top: 431px;
+        max-width: 100%;
+}
+
+.section {
+
+width: 200%;
+margin-left: 400px;
+    margin-top: 600px;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 63px;
+    line-height: 24px;
+    color: rgba(24, 109, 206, 0.719);
+    text-align: center;  
+    margin-left: -25px;  
+
+}
+
+h2 {
+    font-size: 35px;
+    font-weight: 800;
+    line-height: 36px;
+    color: rgb(87, 87, 87);
+    text-align: center;
+    margin-left: -25px;
+}
+
+.link-header{
+
+font-size: 15;
+}
+
+.botom {
+    opacity: 100%;
+}
+
+header {
+    display: none;
+
+}
+
+main {
+width: 90%;
+
+}
+
+ p {
+
+    text-align: center;
+    margin: 8px 35px 0px 20px;
+ }
+    button { text-align: center;
+    margin-left: 120px;
+    font-size: 25px;
+    width: 190px;
+    height: 50px;
+    margin-top: 30px;
+
+    }
+}
+
